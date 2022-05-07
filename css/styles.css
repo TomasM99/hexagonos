@@ -23,15 +23,16 @@ body {
   position: relative;
   width: 100px;
   height: 110px;
-  margin: 1px;
+  margin: 2px;
   transition: 2s;
-  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%); }
+  clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+  background-color: #181818; }
   .hexagono:hover {
     background: #0f0;
     transition: 0s; }
 
 .row:nth-child(even) {
-  margin-left: 1px; }
+  margin-left: 2px; }
 
 @keyframes anim {
   0% {
